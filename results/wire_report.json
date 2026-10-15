@@ -1,0 +1,1304 @@
+{
+  "passed": true,
+  "transports": [
+    "HTTP/JSON",
+    "gRPC/protobuf"
+  ],
+  "operations_checked": 57,
+  "checks": [
+    {
+      "name": "GetRegion(Alabama)",
+      "passed": true,
+      "http_json": {
+        "region": "Alabama",
+        "transaction_count": 5761,
+        "revenue_total": 198283411.75
+      },
+      "grpc_protobuf": {
+        "region": "Alabama",
+        "transaction_count": 5761,
+        "revenue_total": 198283411.75
+      }
+    },
+    {
+      "name": "GetRegion(Alaska)",
+      "passed": true,
+      "http_json": {
+        "region": "Alaska",
+        "transaction_count": 5808,
+        "revenue_total": 175239354.74
+      },
+      "grpc_protobuf": {
+        "region": "Alaska",
+        "transaction_count": 5808,
+        "revenue_total": 175239354.74
+      }
+    },
+    {
+      "name": "GetRegion(Arizona)",
+      "passed": true,
+      "http_json": {
+        "region": "Arizona",
+        "transaction_count": 6178,
+        "revenue_total": 193719856.13
+      },
+      "grpc_protobuf": {
+        "region": "Arizona",
+        "transaction_count": 6178,
+        "revenue_total": 193719856.13
+      }
+    },
+    {
+      "name": "GetRegion(Arkansas)",
+      "passed": true,
+      "http_json": {
+        "region": "Arkansas",
+        "transaction_count": 6348,
+        "revenue_total": 197796110.9
+      },
+      "grpc_protobuf": {
+        "region": "Arkansas",
+        "transaction_count": 6348,
+        "revenue_total": 197796110.9
+      }
+    },
+    {
+      "name": "GetRegion(California)",
+      "passed": true,
+      "http_json": {
+        "region": "California",
+        "transaction_count": 6132,
+        "revenue_total": 192943937.4
+      },
+      "grpc_protobuf": {
+        "region": "California",
+        "transaction_count": 6132,
+        "revenue_total": 192943937.4
+      }
+    },
+    {
+      "name": "GetRegion(Colorado)",
+      "passed": true,
+      "http_json": {
+        "region": "Colorado",
+        "transaction_count": 5706,
+        "revenue_total": 169226809.26
+      },
+      "grpc_protobuf": {
+        "region": "Colorado",
+        "transaction_count": 5706,
+        "revenue_total": 169226809.26
+      }
+    },
+    {
+      "name": "GetRegion(Connecticut)",
+      "passed": true,
+      "http_json": {
+        "region": "Connecticut",
+        "transaction_count": 6028,
+        "revenue_total": 191461815.7
+      },
+      "grpc_protobuf": {
+        "region": "Connecticut",
+        "transaction_count": 6028,
+        "revenue_total": 191461815.7
+      }
+    },
+    {
+      "name": "GetRegion(Delaware)",
+      "passed": true,
+      "http_json": {
+        "region": "Delaware",
+        "transaction_count": 5801,
+        "revenue_total": 170523546.44
+      },
+      "grpc_protobuf": {
+        "region": "Delaware",
+        "transaction_count": 5801,
+        "revenue_total": 170523546.44
+      }
+    },
+    {
+      "name": "GetRegion(Florida)",
+      "passed": true,
+      "http_json": {
+        "region": "Florida",
+        "transaction_count": 5882,
+        "revenue_total": 176217055.23
+      },
+      "grpc_protobuf": {
+        "region": "Florida",
+        "transaction_count": 5882,
+        "revenue_total": 176217055.23
+      }
+    },
+    {
+      "name": "GetRegion(Georgia)",
+      "passed": true,
+      "http_json": {
+        "region": "Georgia",
+        "transaction_count": 5721,
+        "revenue_total": 182162580.71
+      },
+      "grpc_protobuf": {
+        "region": "Georgia",
+        "transaction_count": 5721,
+        "revenue_total": 182162580.71
+      }
+    },
+    {
+      "name": "GetRegion(Hawaii)",
+      "passed": true,
+      "http_json": {
+        "region": "Hawaii",
+        "transaction_count": 5921,
+        "revenue_total": 192543051.04
+      },
+      "grpc_protobuf": {
+        "region": "Hawaii",
+        "transaction_count": 5921,
+        "revenue_total": 192543051.04
+      }
+    },
+    {
+      "name": "GetRegion(Idaho)",
+      "passed": true,
+      "http_json": {
+        "region": "Idaho",
+        "transaction_count": 6147,
+        "revenue_total": 188353381.49
+      },
+      "grpc_protobuf": {
+        "region": "Idaho",
+        "transaction_count": 6147,
+        "revenue_total": 188353381.49
+      }
+    },
+    {
+      "name": "GetRegion(Illinois)",
+      "passed": true,
+      "http_json": {
+        "region": "Illinois",
+        "transaction_count": 6211,
+        "revenue_total": 184424790.47
+      },
+      "grpc_protobuf": {
+        "region": "Illinois",
+        "transaction_count": 6211,
+        "revenue_total": 184424790.47
+      }
+    },
+    {
+      "name": "GetRegion(Indiana)",
+      "passed": true,
+      "http_json": {
+        "region": "Indiana",
+        "transaction_count": 5943,
+        "revenue_total": 193811741.76
+      },
+      "grpc_protobuf": {
+        "region": "Indiana",
+        "transaction_count": 5943,
+        "revenue_total": 193811741.76
+      }
+    },
+    {
+      "name": "GetRegion(Iowa)",
+      "passed": true,
+      "http_json": {
+        "region": "Iowa",
+        "transaction_count": 6038,
+        "revenue_total": 204812114.34
+      },
+      "grpc_protobuf": {
+        "region": "Iowa",
+        "transaction_count": 6038,
+        "revenue_total": 204812114.34
+      }
+    },
+    {
+      "name": "GetRegion(Kansas)",
+      "passed": true,
+      "http_json": {
+        "region": "Kansas",
+        "transaction_count": 6140,
+        "revenue_total": 201841717.74
+      },
+      "grpc_protobuf": {
+        "region": "Kansas",
+        "transaction_count": 6140,
+        "revenue_total": 201841717.74
+      }
+    },
+    {
+      "name": "GetRegion(Kentucky)",
+      "passed": true,
+      "http_json": {
+        "region": "Kentucky",
+        "transaction_count": 5685,
+        "revenue_total": 164715207.53
+      },
+      "grpc_protobuf": {
+        "region": "Kentucky",
+        "transaction_count": 5685,
+        "revenue_total": 164715207.53
+      }
+    },
+    {
+      "name": "GetRegion(Louisiana)",
+      "passed": true,
+      "http_json": {
+        "region": "Louisiana",
+        "transaction_count": 6240,
+        "revenue_total": 229034982.35
+      },
+      "grpc_protobuf": {
+        "region": "Louisiana",
+        "transaction_count": 6240,
+        "revenue_total": 229034982.35
+      }
+    },
+    {
+      "name": "GetRegion(Maine)",
+      "passed": true,
+      "http_json": {
+        "region": "Maine",
+        "transaction_count": 5826,
+        "revenue_total": 195985251.94
+      },
+      "grpc_protobuf": {
+        "region": "Maine",
+        "transaction_count": 5826,
+        "revenue_total": 195985251.94
+      }
+    },
+    {
+      "name": "GetRegion(Maryland)",
+      "passed": true,
+      "http_json": {
+        "region": "Maryland",
+        "transaction_count": 6035,
+        "revenue_total": 196136274.73
+      },
+      "grpc_protobuf": {
+        "region": "Maryland",
+        "transaction_count": 6035,
+        "revenue_total": 196136274.73
+      }
+    },
+    {
+      "name": "GetRegion(Massachusetts)",
+      "passed": true,
+      "http_json": {
+        "region": "Massachusetts",
+        "transaction_count": 6040,
+        "revenue_total": 197281358.74
+      },
+      "grpc_protobuf": {
+        "region": "Massachusetts",
+        "transaction_count": 6040,
+        "revenue_total": 197281358.74
+      }
+    },
+    {
+      "name": "GetRegion(Michigan)",
+      "passed": true,
+      "http_json": {
+        "region": "Michigan",
+        "transaction_count": 5963,
+        "revenue_total": 194010591.57
+      },
+      "grpc_protobuf": {
+        "region": "Michigan",
+        "transaction_count": 5963,
+        "revenue_total": 194010591.57
+      }
+    },
+    {
+      "name": "GetRegion(Minnesota)",
+      "passed": true,
+      "http_json": {
+        "region": "Minnesota",
+        "transaction_count": 5547,
+        "revenue_total": 177462155.91
+      },
+      "grpc_protobuf": {
+        "region": "Minnesota",
+        "transaction_count": 5547,
+        "revenue_total": 177462155.91
+      }
+    },
+    {
+      "name": "GetRegion(Mississippi)",
+      "passed": true,
+      "http_json": {
+        "region": "Mississippi",
+        "transaction_count": 6256,
+        "revenue_total": 199305761.38
+      },
+      "grpc_protobuf": {
+        "region": "Mississippi",
+        "transaction_count": 6256,
+        "revenue_total": 199305761.38
+      }
+    },
+    {
+      "name": "GetRegion(Missouri)",
+      "passed": true,
+      "http_json": {
+        "region": "Missouri",
+        "transaction_count": 5889,
+        "revenue_total": 196173193.47
+      },
+      "grpc_protobuf": {
+        "region": "Missouri",
+        "transaction_count": 5889,
+        "revenue_total": 196173193.47
+      }
+    },
+    {
+      "name": "GetRegion(Montana)",
+      "passed": true,
+      "http_json": {
+        "region": "Montana",
+        "transaction_count": 5812,
+        "revenue_total": 179446238.78
+      },
+      "grpc_protobuf": {
+        "region": "Montana",
+        "transaction_count": 5812,
+        "revenue_total": 179446238.78
+      }
+    },
+    {
+      "name": "GetRegion(Nebraska)",
+      "passed": true,
+      "http_json": {
+        "region": "Nebraska",
+        "transaction_count": 6243,
+        "revenue_total": 211782191.62
+      },
+      "grpc_protobuf": {
+        "region": "Nebraska",
+        "transaction_count": 6243,
+        "revenue_total": 211782191.62
+      }
+    },
+    {
+      "name": "GetRegion(Nevada)",
+      "passed": true,
+      "http_json": {
+        "region": "Nevada",
+        "transaction_count": 6258,
+        "revenue_total": 205229685.4
+      },
+      "grpc_protobuf": {
+        "region": "Nevada",
+        "transaction_count": 6258,
+        "revenue_total": 205229685.4
+      }
+    },
+    {
+      "name": "GetRegion(New Hampshire)",
+      "passed": true,
+      "http_json": {
+        "region": "New Hampshire",
+        "transaction_count": 5860,
+        "revenue_total": 191089517.01
+      },
+      "grpc_protobuf": {
+        "region": "New Hampshire",
+        "transaction_count": 5860,
+        "revenue_total": 191089517.01
+      }
+    },
+    {
+      "name": "GetRegion(New Jersey)",
+      "passed": true,
+      "http_json": {
+        "region": "New Jersey",
+        "transaction_count": 6122,
+        "revenue_total": 208900625.42
+      },
+      "grpc_protobuf": {
+        "region": "New Jersey",
+        "transaction_count": 6122,
+        "revenue_total": 208900625.42
+      }
+    },
+    {
+      "name": "GetRegion(New Mexico)",
+      "passed": true,
+      "http_json": {
+        "region": "New Mexico",
+        "transaction_count": 5889,
+        "revenue_total": 177823638.43
+      },
+      "grpc_protobuf": {
+        "region": "New Mexico",
+        "transaction_count": 5889,
+        "revenue_total": 177823638.43
+      }
+    },
+    {
+      "name": "GetRegion(New York)",
+      "passed": true,
+      "http_json": {
+        "region": "New York",
+        "transaction_count": 6267,
+        "revenue_total": 214754466.23
+      },
+      "grpc_protobuf": {
+        "region": "New York",
+        "transaction_count": 6267,
+        "revenue_total": 214754466.23
+      }
+    },
+    {
+      "name": "GetRegion(North Carolina)",
+      "passed": true,
+      "http_json": {
+        "region": "North Carolina",
+        "transaction_count": 5999,
+        "revenue_total": 191619647.35
+      },
+      "grpc_protobuf": {
+        "region": "North Carolina",
+        "transaction_count": 5999,
+        "revenue_total": 191619647.35
+      }
+    },
+    {
+      "name": "GetRegion(North Dakota)",
+      "passed": true,
+      "http_json": {
+        "region": "North Dakota",
+        "transaction_count": 6041,
+        "revenue_total": 186576838.69
+      },
+      "grpc_protobuf": {
+        "region": "North Dakota",
+        "transaction_count": 6041,
+        "revenue_total": 186576838.69
+      }
+    },
+    {
+      "name": "GetRegion(Ohio)",
+      "passed": true,
+      "http_json": {
+        "region": "Ohio",
+        "transaction_count": 6169,
+        "revenue_total": 206036128.93
+      },
+      "grpc_protobuf": {
+        "region": "Ohio",
+        "transaction_count": 6169,
+        "revenue_total": 206036128.93
+      }
+    },
+    {
+      "name": "GetRegion(Oklahoma)",
+      "passed": true,
+      "http_json": {
+        "region": "Oklahoma",
+        "transaction_count": 6224,
+        "revenue_total": 210948390.46
+      },
+      "grpc_protobuf": {
+        "region": "Oklahoma",
+        "transaction_count": 6224,
+        "revenue_total": 210948390.46
+      }
+    },
+    {
+      "name": "GetRegion(Oregon)",
+      "passed": true,
+      "http_json": {
+        "region": "Oregon",
+        "transaction_count": 6240,
+        "revenue_total": 207528411.97
+      },
+      "grpc_protobuf": {
+        "region": "Oregon",
+        "transaction_count": 6240,
+        "revenue_total": 207528411.97
+      }
+    },
+    {
+      "name": "GetRegion(Pennsylvania)",
+      "passed": true,
+      "http_json": {
+        "region": "Pennsylvania",
+        "transaction_count": 6277,
+        "revenue_total": 192805755.27
+      },
+      "grpc_protobuf": {
+        "region": "Pennsylvania",
+        "transaction_count": 6277,
+        "revenue_total": 192805755.27
+      }
+    },
+    {
+      "name": "GetRegion(Rhode Island)",
+      "passed": true,
+      "http_json": {
+        "region": "Rhode Island",
+        "transaction_count": 5960,
+        "revenue_total": 173686139.01
+      },
+      "grpc_protobuf": {
+        "region": "Rhode Island",
+        "transaction_count": 5960,
+        "revenue_total": 173686139.01
+      }
+    },
+    {
+      "name": "GetRegion(South Carolina)",
+      "passed": true,
+      "http_json": {
+        "region": "South Carolina",
+        "transaction_count": 5904,
+        "revenue_total": 195157093.34
+      },
+      "grpc_protobuf": {
+        "region": "South Carolina",
+        "transaction_count": 5904,
+        "revenue_total": 195157093.34
+      }
+    },
+    {
+      "name": "GetRegion(South Dakota)",
+      "passed": true,
+      "http_json": {
+        "region": "South Dakota",
+        "transaction_count": 5741,
+        "revenue_total": 185508578.24
+      },
+      "grpc_protobuf": {
+        "region": "South Dakota",
+        "transaction_count": 5741,
+        "revenue_total": 185508578.24
+      }
+    },
+    {
+      "name": "GetRegion(Tennessee)",
+      "passed": true,
+      "http_json": {
+        "region": "Tennessee",
+        "transaction_count": 5929,
+        "revenue_total": 185110568.13
+      },
+      "grpc_protobuf": {
+        "region": "Tennessee",
+        "transaction_count": 5929,
+        "revenue_total": 185110568.13
+      }
+    },
+    {
+      "name": "GetRegion(Texas)",
+      "passed": true,
+      "http_json": {
+        "region": "Texas",
+        "transaction_count": 5791,
+        "revenue_total": 181094681.5
+      },
+      "grpc_protobuf": {
+        "region": "Texas",
+        "transaction_count": 5791,
+        "revenue_total": 181094681.5
+      }
+    },
+    {
+      "name": "GetRegion(Utah)",
+      "passed": true,
+      "http_json": {
+        "region": "Utah",
+        "transaction_count": 6272,
+        "revenue_total": 204579745.36
+      },
+      "grpc_protobuf": {
+        "region": "Utah",
+        "transaction_count": 6272,
+        "revenue_total": 204579745.36
+      }
+    },
+    {
+      "name": "GetRegion(Vermont)",
+      "passed": true,
+      "http_json": {
+        "region": "Vermont",
+        "transaction_count": 6266,
+        "revenue_total": 191494443.26
+      },
+      "grpc_protobuf": {
+        "region": "Vermont",
+        "transaction_count": 6266,
+        "revenue_total": 191494443.26
+      }
+    },
+    {
+      "name": "GetRegion(Virginia)",
+      "passed": true,
+      "http_json": {
+        "region": "Virginia",
+        "transaction_count": 5813,
+        "revenue_total": 178593772.57
+      },
+      "grpc_protobuf": {
+        "region": "Virginia",
+        "transaction_count": 5813,
+        "revenue_total": 178593772.57
+      }
+    },
+    {
+      "name": "GetRegion(Washington)",
+      "passed": true,
+      "http_json": {
+        "region": "Washington",
+        "transaction_count": 5961,
+        "revenue_total": 194318990.07
+      },
+      "grpc_protobuf": {
+        "region": "Washington",
+        "transaction_count": 5961,
+        "revenue_total": 194318990.07
+      }
+    },
+    {
+      "name": "GetRegion(West Virginia)",
+      "passed": true,
+      "http_json": {
+        "region": "West Virginia",
+        "transaction_count": 5805,
+        "revenue_total": 198949734.17
+      },
+      "grpc_protobuf": {
+        "region": "West Virginia",
+        "transaction_count": 5805,
+        "revenue_total": 198949734.17
+      }
+    },
+    {
+      "name": "GetRegion(Wisconsin)",
+      "passed": true,
+      "http_json": {
+        "region": "Wisconsin",
+        "transaction_count": 5825,
+        "revenue_total": 179872251.39
+      },
+      "grpc_protobuf": {
+        "region": "Wisconsin",
+        "transaction_count": 5825,
+        "revenue_total": 179872251.39
+      }
+    },
+    {
+      "name": "GetRegion(Wyoming)",
+      "passed": true,
+      "http_json": {
+        "region": "Wyoming",
+        "transaction_count": 6086,
+        "revenue_total": 194419261.41
+      },
+      "grpc_protobuf": {
+        "region": "Wyoming",
+        "transaction_count": 6086,
+        "revenue_total": 194419261.41
+      }
+    },
+    {
+      "name": "GetSummary",
+      "passed": true,
+      "http_json": {
+        "regions": 50,
+        "transactions": 300000,
+        "revenue_total": 9610792846.73
+      },
+      "grpc_protobuf": {
+        "regions": 50,
+        "transactions": 300000,
+        "revenue_total": 9610792846.73
+      }
+    },
+    {
+      "name": "ListRegions",
+      "passed": true,
+      "http_json": {
+        "regions": [
+          {
+            "region": "Alabama",
+            "transaction_count": 5761,
+            "revenue_total": 198283411.75
+          },
+          {
+            "region": "Alaska",
+            "transaction_count": 5808,
+            "revenue_total": 175239354.74
+          },
+          {
+            "region": "Arizona",
+            "transaction_count": 6178,
+            "revenue_total": 193719856.13
+          },
+          {
+            "region": "Arkansas",
+            "transaction_count": 6348,
+            "revenue_total": 197796110.9
+          },
+          {
+            "region": "California",
+            "transaction_count": 6132,
+            "revenue_total": 192943937.4
+          },
+          {
+            "region": "Colorado",
+            "transaction_count": 5706,
+            "revenue_total": 169226809.26
+          },
+          {
+            "region": "Connecticut",
+            "transaction_count": 6028,
+            "revenue_total": 191461815.7
+          },
+          {
+            "region": "Delaware",
+            "transaction_count": 5801,
+            "revenue_total": 170523546.44
+          },
+          {
+            "region": "Florida",
+            "transaction_count": 5882,
+            "revenue_total": 176217055.23
+          },
+          {
+            "region": "Georgia",
+            "transaction_count": 5721,
+            "revenue_total": 182162580.71
+          },
+          {
+            "region": "Hawaii",
+            "transaction_count": 5921,
+            "revenue_total": 192543051.04
+          },
+          {
+            "region": "Idaho",
+            "transaction_count": 6147,
+            "revenue_total": 188353381.49
+          },
+          {
+            "region": "Illinois",
+            "transaction_count": 6211,
+            "revenue_total": 184424790.47
+          },
+          {
+            "region": "Indiana",
+            "transaction_count": 5943,
+            "revenue_total": 193811741.76
+          },
+          {
+            "region": "Iowa",
+            "transaction_count": 6038,
+            "revenue_total": 204812114.34
+          },
+          {
+            "region": "Kansas",
+            "transaction_count": 6140,
+            "revenue_total": 201841717.74
+          },
+          {
+            "region": "Kentucky",
+            "transaction_count": 5685,
+            "revenue_total": 164715207.53
+          },
+          {
+            "region": "Louisiana",
+            "transaction_count": 6240,
+            "revenue_total": 229034982.35
+          },
+          {
+            "region": "Maine",
+            "transaction_count": 5826,
+            "revenue_total": 195985251.94
+          },
+          {
+            "region": "Maryland",
+            "transaction_count": 6035,
+            "revenue_total": 196136274.73
+          },
+          {
+            "region": "Massachusetts",
+            "transaction_count": 6040,
+            "revenue_total": 197281358.74
+          },
+          {
+            "region": "Michigan",
+            "transaction_count": 5963,
+            "revenue_total": 194010591.57
+          },
+          {
+            "region": "Minnesota",
+            "transaction_count": 5547,
+            "revenue_total": 177462155.91
+          },
+          {
+            "region": "Mississippi",
+            "transaction_count": 6256,
+            "revenue_total": 199305761.38
+          },
+          {
+            "region": "Missouri",
+            "transaction_count": 5889,
+            "revenue_total": 196173193.47
+          },
+          {
+            "region": "Montana",
+            "transaction_count": 5812,
+            "revenue_total": 179446238.78
+          },
+          {
+            "region": "Nebraska",
+            "transaction_count": 6243,
+            "revenue_total": 211782191.62
+          },
+          {
+            "region": "Nevada",
+            "transaction_count": 6258,
+            "revenue_total": 205229685.4
+          },
+          {
+            "region": "New Hampshire",
+            "transaction_count": 5860,
+            "revenue_total": 191089517.01
+          },
+          {
+            "region": "New Jersey",
+            "transaction_count": 6122,
+            "revenue_total": 208900625.42
+          },
+          {
+            "region": "New Mexico",
+            "transaction_count": 5889,
+            "revenue_total": 177823638.43
+          },
+          {
+            "region": "New York",
+            "transaction_count": 6267,
+            "revenue_total": 214754466.23
+          },
+          {
+            "region": "North Carolina",
+            "transaction_count": 5999,
+            "revenue_total": 191619647.35
+          },
+          {
+            "region": "North Dakota",
+            "transaction_count": 6041,
+            "revenue_total": 186576838.69
+          },
+          {
+            "region": "Ohio",
+            "transaction_count": 6169,
+            "revenue_total": 206036128.93
+          },
+          {
+            "region": "Oklahoma",
+            "transaction_count": 6224,
+            "revenue_total": 210948390.46
+          },
+          {
+            "region": "Oregon",
+            "transaction_count": 6240,
+            "revenue_total": 207528411.97
+          },
+          {
+            "region": "Pennsylvania",
+            "transaction_count": 6277,
+            "revenue_total": 192805755.27
+          },
+          {
+            "region": "Rhode Island",
+            "transaction_count": 5960,
+            "revenue_total": 173686139.01
+          },
+          {
+            "region": "South Carolina",
+            "transaction_count": 5904,
+            "revenue_total": 195157093.34
+          },
+          {
+            "region": "South Dakota",
+            "transaction_count": 5741,
+            "revenue_total": 185508578.24
+          },
+          {
+            "region": "Tennessee",
+            "transaction_count": 5929,
+            "revenue_total": 185110568.13
+          },
+          {
+            "region": "Texas",
+            "transaction_count": 5791,
+            "revenue_total": 181094681.5
+          },
+          {
+            "region": "Utah",
+            "transaction_count": 6272,
+            "revenue_total": 204579745.36
+          },
+          {
+            "region": "Vermont",
+            "transaction_count": 6266,
+            "revenue_total": 191494443.26
+          },
+          {
+            "region": "Virginia",
+            "transaction_count": 5813,
+            "revenue_total": 178593772.57
+          },
+          {
+            "region": "Washington",
+            "transaction_count": 5961,
+            "revenue_total": 194318990.07
+          },
+          {
+            "region": "West Virginia",
+            "transaction_count": 5805,
+            "revenue_total": 198949734.17
+          },
+          {
+            "region": "Wisconsin",
+            "transaction_count": 5825,
+            "revenue_total": 179872251.39
+          },
+          {
+            "region": "Wyoming",
+            "transaction_count": 6086,
+            "revenue_total": 194419261.41
+          }
+        ]
+      },
+      "grpc_protobuf": {
+        "regions": [
+          {
+            "region": "Alabama",
+            "transaction_count": 5761,
+            "revenue_total": 198283411.75
+          },
+          {
+            "region": "Alaska",
+            "transaction_count": 5808,
+            "revenue_total": 175239354.74
+          },
+          {
+            "region": "Arizona",
+            "transaction_count": 6178,
+            "revenue_total": 193719856.13
+          },
+          {
+            "region": "Arkansas",
+            "transaction_count": 6348,
+            "revenue_total": 197796110.9
+          },
+          {
+            "region": "California",
+            "transaction_count": 6132,
+            "revenue_total": 192943937.4
+          },
+          {
+            "region": "Colorado",
+            "transaction_count": 5706,
+            "revenue_total": 169226809.26
+          },
+          {
+            "region": "Connecticut",
+            "transaction_count": 6028,
+            "revenue_total": 191461815.7
+          },
+          {
+            "region": "Delaware",
+            "transaction_count": 5801,
+            "revenue_total": 170523546.44
+          },
+          {
+            "region": "Florida",
+            "transaction_count": 5882,
+            "revenue_total": 176217055.23
+          },
+          {
+            "region": "Georgia",
+            "transaction_count": 5721,
+            "revenue_total": 182162580.71
+          },
+          {
+            "region": "Hawaii",
+            "transaction_count": 5921,
+            "revenue_total": 192543051.04
+          },
+          {
+            "region": "Idaho",
+            "transaction_count": 6147,
+            "revenue_total": 188353381.49
+          },
+          {
+            "region": "Illinois",
+            "transaction_count": 6211,
+            "revenue_total": 184424790.47
+          },
+          {
+            "region": "Indiana",
+            "transaction_count": 5943,
+            "revenue_total": 193811741.76
+          },
+          {
+            "region": "Iowa",
+            "transaction_count": 6038,
+            "revenue_total": 204812114.34
+          },
+          {
+            "region": "Kansas",
+            "transaction_count": 6140,
+            "revenue_total": 201841717.74
+          },
+          {
+            "region": "Kentucky",
+            "transaction_count": 5685,
+            "revenue_total": 164715207.53
+          },
+          {
+            "region": "Louisiana",
+            "transaction_count": 6240,
+            "revenue_total": 229034982.35
+          },
+          {
+            "region": "Maine",
+            "transaction_count": 5826,
+            "revenue_total": 195985251.94
+          },
+          {
+            "region": "Maryland",
+            "transaction_count": 6035,
+            "revenue_total": 196136274.73
+          },
+          {
+            "region": "Massachusetts",
+            "transaction_count": 6040,
+            "revenue_total": 197281358.74
+          },
+          {
+            "region": "Michigan",
+            "transaction_count": 5963,
+            "revenue_total": 194010591.57
+          },
+          {
+            "region": "Minnesota",
+            "transaction_count": 5547,
+            "revenue_total": 177462155.91
+          },
+          {
+            "region": "Mississippi",
+            "transaction_count": 6256,
+            "revenue_total": 199305761.38
+          },
+          {
+            "region": "Missouri",
+            "transaction_count": 5889,
+            "revenue_total": 196173193.47
+          },
+          {
+            "region": "Montana",
+            "transaction_count": 5812,
+            "revenue_total": 179446238.78
+          },
+          {
+            "region": "Nebraska",
+            "transaction_count": 6243,
+            "revenue_total": 211782191.62
+          },
+          {
+            "region": "Nevada",
+            "transaction_count": 6258,
+            "revenue_total": 205229685.4
+          },
+          {
+            "region": "New Hampshire",
+            "transaction_count": 5860,
+            "revenue_total": 191089517.01
+          },
+          {
+            "region": "New Jersey",
+            "transaction_count": 6122,
+            "revenue_total": 208900625.42
+          },
+          {
+            "region": "New Mexico",
+            "transaction_count": 5889,
+            "revenue_total": 177823638.43
+          },
+          {
+            "region": "New York",
+            "transaction_count": 6267,
+            "revenue_total": 214754466.23
+          },
+          {
+            "region": "North Carolina",
+            "transaction_count": 5999,
+            "revenue_total": 191619647.35
+          },
+          {
+            "region": "North Dakota",
+            "transaction_count": 6041,
+            "revenue_total": 186576838.69
+          },
+          {
+            "region": "Ohio",
+            "transaction_count": 6169,
+            "revenue_total": 206036128.93
+          },
+          {
+            "region": "Oklahoma",
+            "transaction_count": 6224,
+            "revenue_total": 210948390.46
+          },
+          {
+            "region": "Oregon",
+            "transaction_count": 6240,
+            "revenue_total": 207528411.97
+          },
+          {
+            "region": "Pennsylvania",
+            "transaction_count": 6277,
+            "revenue_total": 192805755.27
+          },
+          {
+            "region": "Rhode Island",
+            "transaction_count": 5960,
+            "revenue_total": 173686139.01
+          },
+          {
+            "region": "South Carolina",
+            "transaction_count": 5904,
+            "revenue_total": 195157093.34
+          },
+          {
+            "region": "South Dakota",
+            "transaction_count": 5741,
+            "revenue_total": 185508578.24
+          },
+          {
+            "region": "Tennessee",
+            "transaction_count": 5929,
+            "revenue_total": 185110568.13
+          },
+          {
+            "region": "Texas",
+            "transaction_count": 5791,
+            "revenue_total": 181094681.5
+          },
+          {
+            "region": "Utah",
+            "transaction_count": 6272,
+            "revenue_total": 204579745.36
+          },
+          {
+            "region": "Vermont",
+            "transaction_count": 6266,
+            "revenue_total": 191494443.26
+          },
+          {
+            "region": "Virginia",
+            "transaction_count": 5813,
+            "revenue_total": 178593772.57
+          },
+          {
+            "region": "Washington",
+            "transaction_count": 5961,
+            "revenue_total": 194318990.07
+          },
+          {
+            "region": "West Virginia",
+            "transaction_count": 5805,
+            "revenue_total": 198949734.17
+          },
+          {
+            "region": "Wisconsin",
+            "transaction_count": 5825,
+            "revenue_total": 179872251.39
+          },
+          {
+            "region": "Wyoming",
+            "transaction_count": 6086,
+            "revenue_total": 194419261.41
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConfigService.GetConfig",
+      "passed": true,
+      "grpc_protobuf": {
+        "service_name": "RegionalRevenue",
+        "contract_package": "cmaflow.v1",
+        "canonical_region_key": "region",
+        "region_count": 50,
+        "grpc_max_workers": 10
+      }
+    },
+    {
+      "name": "EntitlementService.EvaluateEntitlement",
+      "passed": true,
+      "grpc_protobuf": {
+        "status": "ENTITLEMENT_STATUS_NOT_CONFIGURED",
+        "message": "Entitlement decisions are unavailable: no entitlement policies or entitlement data are configured."
+      }
+    },
+    {
+      "name": "CustomerService.ResolveCustomer (unique)",
+      "passed": true,
+      "grpc_protobuf": {
+        "status": "CUSTOMER_RESOLUTION_STATUS_FOUND",
+        "archive_backed": true,
+        "source_file": "data/Datasets/crm_50000_customers_dirty_v3.csv",
+        "customer_id": "0d244537-8164-4b84-bcf2-0e43766f3221",
+        "match_count": 1,
+        "first_name": "mARIA",
+        "last_name": "day",
+        "city": "Padillaborough",
+        "state": "Oregon",
+        "country": "Micronesia"
+      }
+    },
+    {
+      "name": "CustomerService.ResolveCustomer (ambiguous ID)",
+      "passed": true,
+      "grpc_protobuf": {
+        "status": "CUSTOMER_RESOLUTION_STATUS_AMBIGUOUS",
+        "archive_backed": true,
+        "source_file": "data/Datasets/crm_50000_customers_dirty_v3.csv",
+        "customer_id": "1ce2f061-345c-4121-a4ba-32963cf9a15d",
+        "match_count": 3,
+        "first_name": "",
+        "last_name": "",
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    {
+      "name": "CustomerService.ResolveCustomer (not found)",
+      "passed": true,
+      "grpc_protobuf": {
+        "status": "CUSTOMER_RESOLUTION_STATUS_NOT_FOUND",
+        "archive_backed": true,
+        "source_file": "data/Datasets/crm_50000_customers_dirty_v3.csv",
+        "customer_id": "__wire_verification_missing_customer__",
+        "match_count": 0,
+        "first_name": "",
+        "last_name": "",
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    }
+  ],
+  "protobuf_service": "cmaflow.v1.RegionalRevenue"
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "operation": "GetRegion",
+  "region": "Alabama",
+  "normal_deadline_seconds": 10.0,
+  "generous_deadline_seconds": 30.0,
+  "normal_deadline_succeeded": true,
+  "normal_response": {
+    "region": "Alabama",
+    "transaction_count": 5761,
+    "revenue_total": 198283411.75
+  },
+  "generous_deadline_response": {
+    "region": "Alabama",
+    "transaction_count": 5761,
+    "revenue_total": 198283411.75
+  },
+  "same_response": true,
+  "matches_archived_record": true,
+  "source": "Live typed gRPC service compared with archived regional record"
+}

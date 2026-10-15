@@ -1,0 +1,28 @@
+{
+  "measured_at": "2026-10-15T21:22:57.419360+00:00",
+  "scope": "Live loopback adapter comparison; not student-hardware results",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "python": "3.13.3"
+  },
+  "regions_compared": 50,
+  "identical_responses": true,
+  "passed": true,
+  "transports": [
+    {
+      "transport": "HTTP / JSON",
+      "calls": 50,
+      "mean_ms_per_call": 5.83062599907862,
+      "sent_bytes": 2072,
+      "received_bytes": 3767
+    },
+    {
+      "transport": "gRPC / typed protobuf",
+      "calls": 50,
+      "mean_ms_per_call": 1.3654539993149228,
+      "sent_bytes": 522,
+      "received_bytes": 1122
+    }
+  ]
+}

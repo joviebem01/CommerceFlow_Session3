@@ -1,0 +1,86 @@
+syntax = "proto3";
+
+package cmaflow.v1;
+
+import "google/protobuf/empty.proto";
+
+service RegionalRevenue {
+  rpc GetRegion(RegionRequest) returns (RegionResponse);
+  rpc GetSummary(google.protobuf.Empty) returns (SummaryResponse);
+  rpc ListRegions(google.protobuf.Empty) returns (stream RegionResponse);
+}
+
+service ConfigService {
+  rpc GetConfig(google.protobuf.Empty) returns (ConfigResponse);
+}
+
+service EntitlementService {
+  rpc EvaluateEntitlement(EntitlementRequest) returns (EntitlementResponse);
+}
+
+service CustomerService {
+  rpc ResolveCustomer(CustomerRequest) returns (CustomerResponse);
+}
+
+message RegionRequest {
+  string region = 1;
+}
+
+message RegionResponse {
+  string region = 1;
+  int64 transaction_count = 2;
+  double revenue_total = 3;
+}
+
+message SummaryResponse {
+  int32 region_count = 1;
+  int64 transaction_count = 2;
+  double revenue_total = 3;
+}
+
+message ConfigResponse {
+  string service_name = 1;
+  string contract_package = 2;
+  string canonical_region_key = 3;
+  int32 region_count = 4;
+  int32 grpc_max_workers = 5;
+}
+
+message EntitlementRequest {
+  string customer_id = 1;
+  string entitlement_key = 2;
+}
+
+enum EntitlementStatus {
+  ENTITLEMENT_STATUS_UNSPECIFIED = 0;
+  ENTITLEMENT_STATUS_NOT_CONFIGURED = 1;
+}
+
+message EntitlementResponse {
+  EntitlementStatus status = 1;
+  string message = 2;
+}
+
+message CustomerRequest {
+  string customer_id = 1;
+}
+
+enum CustomerResolutionStatus {
+  CUSTOMER_RESOLUTION_STATUS_UNSPECIFIED = 0;
+  CUSTOMER_RESOLUTION_STATUS_FOUND = 1;
+  CUSTOMER_RESOLUTION_STATUS_NOT_FOUND = 2;
+  CUSTOMER_RESOLUTION_STATUS_AMBIGUOUS = 3;
+}
+
+message CustomerResponse {
+  CustomerResolutionStatus status = 1;
+  bool archive_backed = 2;
+  string source_file = 3;
+  string customer_id = 4;
+  int32 match_count = 5;
+  string first_name = 6;
+  string last_name = 7;
+  string city = 8;
+  string state = 9;
+  string country = 10;
+}

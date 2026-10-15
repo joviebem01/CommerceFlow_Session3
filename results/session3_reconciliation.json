@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "gates": {
+    "s1_s2_transaction_counts": true,
+    "s1_s2_revenue": true,
+    "s1_s3_transaction_counts": true,
+    "s1_s3_revenue": true,
+    "s2_s3_transaction_counts": true,
+    "s2_s3_revenue": true,
+    "region_set": true
+  },
+  "regions": 50,
+  "transaction_count": 300000,
+  "revenue_total": 9610792846.73,
+  "max_differences": [
+    0,
+    0.0,
+    0,
+    6.258487701416016e-07
+  ],
+  "unexpected_regions": [],
+  "source": "Archived S1 baseline, archived S2 stream, live typed gRPC composed S3"
+}

@@ -1,0 +1,3 @@
+measured_at,test,transport,requests,elapsed_ms,time_to_first_row_ms,rows_returned,notes
+2026-10-15T21:22:56.981918+00:00,Single batched RPC,HTTP / JSON,1,1.9318999984534457,1.9318999984534457,50,Full response read before decoding
+2026-10-15T21:22:56.981918+00:00,N individual RPCs,HTTP / JSON,50,316.61009999515954,,50,One HTTP request per region

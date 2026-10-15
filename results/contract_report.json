@@ -1,0 +1,382 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "session1/baseline_result.csv",
+      "kind": "csv",
+      "expected": [
+        "state",
+        "order_count",
+        "successful_orders",
+        "revenue_total",
+        "aov"
+      ],
+      "actual": [
+        "state",
+        "order_count",
+        "successful_orders",
+        "revenue_total",
+        "aov"
+      ],
+      "duplicates": [],
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "session2/streamed_regional_revenue.csv",
+      "kind": "csv",
+      "expected": [
+        "region",
+        "txn_count",
+        "revenue_total",
+        "revenue_mean"
+      ],
+      "actual": [
+        "region",
+        "txn_count",
+        "revenue_total",
+        "revenue_mean"
+      ],
+      "duplicates": [],
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "Datasets/crm_50000_customers_dirty_v3.csv",
+      "kind": "csv",
+      "expected": [
+        "customer_id",
+        "first_name",
+        "last_name",
+        "email",
+        "phone_number",
+        "gender",
+        "dob",
+        "signup_date",
+        "address",
+        "city",
+        "state",
+        "country",
+        "device_id(s)",
+        "source"
+      ],
+      "actual": [
+        "customer_id",
+        "first_name",
+        "last_name",
+        "email",
+        "phone_number",
+        "gender",
+        "dob",
+        "signup_date",
+        "address",
+        "city",
+        "state",
+        "country",
+        "device_id(s)",
+        "source"
+      ],
+      "duplicates": [],
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "canonical regional domain key",
+      "kind": "domain_key",
+      "passed": true,
+      "canonical_key": "region",
+      "source_key_fields": {
+        "Session 1": "state",
+        "Session 2": "region",
+        "Session 3": "region"
+      },
+      "regions_compared": 50,
+      "session1_missing_in_session2": [],
+      "session2_missing_in_session1": [],
+      "kafka_partition_configuration": {
+        "status": "NOT PRESENT",
+        "evidence": "The supplied Session 2 archive contains no Kafka partition configuration."
+      }
+    },
+    {
+      "name": "protobuf message RegionRequest",
+      "kind": "protobuf_message",
+      "expected": {
+        "region": 9
+      },
+      "actual": {
+        "region": 9
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "protobuf message RegionResponse",
+      "kind": "protobuf_message",
+      "expected": {
+        "region": 9,
+        "transaction_count": 3,
+        "revenue_total": 1
+      },
+      "actual": {
+        "region": 9,
+        "transaction_count": 3,
+        "revenue_total": 1
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "protobuf message SummaryResponse",
+      "kind": "protobuf_message",
+      "expected": {
+        "region_count": 5,
+        "transaction_count": 3,
+        "revenue_total": 1
+      },
+      "actual": {
+        "region_count": 5,
+        "transaction_count": 3,
+        "revenue_total": 1
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "protobuf message ConfigResponse",
+      "kind": "protobuf_message",
+      "expected": {
+        "service_name": 9,
+        "contract_package": 9,
+        "canonical_region_key": 9,
+        "region_count": 5,
+        "grpc_max_workers": 5
+      },
+      "actual": {
+        "service_name": 9,
+        "contract_package": 9,
+        "canonical_region_key": 9,
+        "region_count": 5,
+        "grpc_max_workers": 5
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "protobuf message EntitlementRequest",
+      "kind": "protobuf_message",
+      "expected": {
+        "customer_id": 9,
+        "entitlement_key": 9
+      },
+      "actual": {
+        "customer_id": 9,
+        "entitlement_key": 9
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "protobuf message EntitlementResponse",
+      "kind": "protobuf_message",
+      "expected": {
+        "status": 14,
+        "message": 9
+      },
+      "actual": {
+        "status": 14,
+        "message": 9
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "protobuf message CustomerRequest",
+      "kind": "protobuf_message",
+      "expected": {
+        "customer_id": 9
+      },
+      "actual": {
+        "customer_id": 9
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "protobuf message CustomerResponse",
+      "kind": "protobuf_message",
+      "expected": {
+        "status": 14,
+        "archive_backed": 8,
+        "source_file": 9,
+        "customer_id": 9,
+        "match_count": 5,
+        "first_name": 9,
+        "last_name": 9,
+        "city": 9,
+        "state": 9,
+        "country": 9
+      },
+      "actual": {
+        "status": 14,
+        "archive_backed": 8,
+        "source_file": 9,
+        "customer_id": 9,
+        "match_count": 5,
+        "first_name": 9,
+        "last_name": 9,
+        "city": 9,
+        "state": 9,
+        "country": 9
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "wrong_types": {}
+    },
+    {
+      "name": "protobuf service RegionalRevenue",
+      "kind": "protobuf_service",
+      "expected": {
+        "GetRegion": [
+          "cmaflow.v1.RegionRequest",
+          "cmaflow.v1.RegionResponse",
+          false
+        ],
+        "GetSummary": [
+          "google.protobuf.Empty",
+          "cmaflow.v1.SummaryResponse",
+          false
+        ],
+        "ListRegions": [
+          "google.protobuf.Empty",
+          "cmaflow.v1.RegionResponse",
+          true
+        ]
+      },
+      "actual": {
+        "GetRegion": [
+          "cmaflow.v1.RegionRequest",
+          "cmaflow.v1.RegionResponse",
+          false
+        ],
+        "GetSummary": [
+          "google.protobuf.Empty",
+          "cmaflow.v1.SummaryResponse",
+          false
+        ],
+        "ListRegions": [
+          "google.protobuf.Empty",
+          "cmaflow.v1.RegionResponse",
+          true
+        ]
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "changed": {}
+    },
+    {
+      "name": "protobuf service ConfigService",
+      "kind": "protobuf_service",
+      "expected": {
+        "GetConfig": [
+          "google.protobuf.Empty",
+          "cmaflow.v1.ConfigResponse",
+          false
+        ]
+      },
+      "actual": {
+        "GetConfig": [
+          "google.protobuf.Empty",
+          "cmaflow.v1.ConfigResponse",
+          false
+        ]
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "changed": {}
+    },
+    {
+      "name": "protobuf service EntitlementService",
+      "kind": "protobuf_service",
+      "expected": {
+        "EvaluateEntitlement": [
+          "cmaflow.v1.EntitlementRequest",
+          "cmaflow.v1.EntitlementResponse",
+          false
+        ]
+      },
+      "actual": {
+        "EvaluateEntitlement": [
+          "cmaflow.v1.EntitlementRequest",
+          "cmaflow.v1.EntitlementResponse",
+          false
+        ]
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "changed": {}
+    },
+    {
+      "name": "protobuf service CustomerService",
+      "kind": "protobuf_service",
+      "expected": {
+        "ResolveCustomer": [
+          "cmaflow.v1.CustomerRequest",
+          "cmaflow.v1.CustomerResponse",
+          false
+        ]
+      },
+      "actual": {
+        "ResolveCustomer": [
+          "cmaflow.v1.CustomerRequest",
+          "cmaflow.v1.CustomerResponse",
+          false
+        ]
+      },
+      "present": true,
+      "passed": true,
+      "missing": [],
+      "unexpected": [],
+      "changed": {}
+    }
+  ],
+  "partitioning": {
+    "status": "NOT PRESENT",
+    "evidence": "The supplied Session 2 archive contains no Kafka partition configuration."
+  }
+}

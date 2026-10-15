@@ -1,0 +1,49 @@
+{
+  "measured_at": "2026-10-15T21:22:56.981918+00:00",
+  "scope": "Local loopback benchmark; not student-hardware results",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "python": "3.13.3"
+  },
+  "regions_expected": 50,
+  "passed": true,
+  "measurements": [
+    {
+      "test": "Single batched RPC",
+      "transport": "HTTP / JSON",
+      "requests": 1,
+      "elapsed_ms": 1.9318999984534457,
+      "time_to_first_row_ms": 1.9318999984534457,
+      "rows_returned": 50,
+      "notes": "Full response read before decoding"
+    },
+    {
+      "test": "N individual RPCs",
+      "transport": "HTTP / JSON",
+      "requests": 50,
+      "elapsed_ms": 316.61009999515954,
+      "time_to_first_row_ms": null,
+      "rows_returned": 50,
+      "notes": "One HTTP request per region"
+    },
+    {
+      "test": "NDJSON server stream",
+      "transport": "HTTP / JSON",
+      "requests": 1,
+      "elapsed_ms": 16.7622000008123,
+      "time_to_first_row_ms": 15.488000004552305,
+      "rows_returned": 50,
+      "notes": "First row measured from live HTTP stream"
+    },
+    {
+      "test": "gRPC server stream",
+      "transport": "gRPC / typed protobuf",
+      "requests": 1,
+      "elapsed_ms": 8.48509999923408,
+      "time_to_first_row_ms": 1.872599998023361,
+      "rows_returned": 50,
+      "notes": "Typed protobuf server-streaming RPC"
+    }
+  ]
+}

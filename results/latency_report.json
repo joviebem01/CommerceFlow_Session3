@@ -1,0 +1,31 @@
+{
+  "measured_at": "2026-10-15T21:22:56.529402+00:00",
+  "scope": "Local loopback service benchmark; not student-hardware results",
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "python": "3.13.3"
+  },
+  "calls_per_transport": 100,
+  "passed": true,
+  "measurements": [
+    {
+      "transport": "HTTP / JSON",
+      "calls": 100,
+      "median_ms": 1.7210000005434267,
+      "mean_ms": 5.197002999775577,
+      "requests_per_second": 192.32888546981974,
+      "response_bytes": 7534,
+      "elapsed_seconds": 0.5199427000043215
+    },
+    {
+      "transport": "gRPC / typed protobuf",
+      "calls": 100,
+      "median_ms": 1.182449996122159,
+      "mean_ms": 1.2609980006527621,
+      "requests_per_second": 791.9644123185911,
+      "response_bytes": 2244,
+      "elapsed_seconds": 0.12626829999499023
+    }
+  ]
+}

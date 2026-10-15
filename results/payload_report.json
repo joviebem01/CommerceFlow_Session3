@@ -1,0 +1,462 @@
+{
+  "measured_at": "2026-10-15T21:22:55.707298+00:00",
+  "passed": true,
+  "regions_measured": 50,
+  "transports": [
+    "HTTP/JSON",
+    "gRPC/protobuf"
+  ],
+  "size_scope": "Serialized request/response bodies/messages; excludes HTTP/2 framing and headers",
+  "measurements": [
+    {
+      "region": "Alabama",
+      "json_request_bytes": 40,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 9,
+      "grpc_response_bytes": 21,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 71.62162162162163
+    },
+    {
+      "region": "Alaska",
+      "json_request_bytes": 39,
+      "json_response_bytes": 73,
+      "grpc_request_bytes": 8,
+      "grpc_response_bytes": 20,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 72.6027397260274
+    },
+    {
+      "region": "Arizona",
+      "json_request_bytes": 40,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 9,
+      "grpc_response_bytes": 21,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 71.62162162162163
+    },
+    {
+      "region": "Arkansas",
+      "json_request_bytes": 41,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 52,
+      "response_reduction_percent": 70.27027027027026
+    },
+    {
+      "region": "California",
+      "json_request_bytes": 43,
+      "json_response_bytes": 76,
+      "grpc_request_bytes": 12,
+      "grpc_response_bytes": 24,
+      "response_bytes_saved": 52,
+      "response_reduction_percent": 68.42105263157895
+    },
+    {
+      "region": "Colorado",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Connecticut",
+      "json_request_bytes": 44,
+      "json_response_bytes": 77,
+      "grpc_request_bytes": 13,
+      "grpc_response_bytes": 25,
+      "response_bytes_saved": 52,
+      "response_reduction_percent": 67.53246753246754
+    },
+    {
+      "region": "Delaware",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Florida",
+      "json_request_bytes": 40,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 9,
+      "grpc_response_bytes": 21,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 71.62162162162163
+    },
+    {
+      "region": "Georgia",
+      "json_request_bytes": 40,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 9,
+      "grpc_response_bytes": 21,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 71.62162162162163
+    },
+    {
+      "region": "Hawaii",
+      "json_request_bytes": 39,
+      "json_response_bytes": 73,
+      "grpc_request_bytes": 8,
+      "grpc_response_bytes": 20,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 72.6027397260274
+    },
+    {
+      "region": "Idaho",
+      "json_request_bytes": 38,
+      "json_response_bytes": 72,
+      "grpc_request_bytes": 7,
+      "grpc_response_bytes": 19,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 73.61111111111111
+    },
+    {
+      "region": "Illinois",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Indiana",
+      "json_request_bytes": 40,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 9,
+      "grpc_response_bytes": 21,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 71.62162162162163
+    },
+    {
+      "region": "Iowa",
+      "json_request_bytes": 37,
+      "json_response_bytes": 71,
+      "grpc_request_bytes": 6,
+      "grpc_response_bytes": 18,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 74.64788732394366
+    },
+    {
+      "region": "Kansas",
+      "json_request_bytes": 39,
+      "json_response_bytes": 73,
+      "grpc_request_bytes": 8,
+      "grpc_response_bytes": 20,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 72.6027397260274
+    },
+    {
+      "region": "Kentucky",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Louisiana",
+      "json_request_bytes": 42,
+      "json_response_bytes": 76,
+      "grpc_request_bytes": 11,
+      "grpc_response_bytes": 23,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 69.73684210526316
+    },
+    {
+      "region": "Maine",
+      "json_request_bytes": 38,
+      "json_response_bytes": 72,
+      "grpc_request_bytes": 7,
+      "grpc_response_bytes": 19,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 73.61111111111111
+    },
+    {
+      "region": "Maryland",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Massachusetts",
+      "json_request_bytes": 46,
+      "json_response_bytes": 80,
+      "grpc_request_bytes": 15,
+      "grpc_response_bytes": 27,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 66.25
+    },
+    {
+      "region": "Michigan",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Minnesota",
+      "json_request_bytes": 42,
+      "json_response_bytes": 76,
+      "grpc_request_bytes": 11,
+      "grpc_response_bytes": 23,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 69.73684210526316
+    },
+    {
+      "region": "Mississippi",
+      "json_request_bytes": 44,
+      "json_response_bytes": 78,
+      "grpc_request_bytes": 13,
+      "grpc_response_bytes": 25,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 67.94871794871796
+    },
+    {
+      "region": "Missouri",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Montana",
+      "json_request_bytes": 40,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 9,
+      "grpc_response_bytes": 21,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 71.62162162162163
+    },
+    {
+      "region": "Nebraska",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Nevada",
+      "json_request_bytes": 39,
+      "json_response_bytes": 72,
+      "grpc_request_bytes": 8,
+      "grpc_response_bytes": 20,
+      "response_bytes_saved": 52,
+      "response_reduction_percent": 72.22222222222221
+    },
+    {
+      "region": "New Hampshire",
+      "json_request_bytes": 46,
+      "json_response_bytes": 80,
+      "grpc_request_bytes": 15,
+      "grpc_response_bytes": 27,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 66.25
+    },
+    {
+      "region": "New Jersey",
+      "json_request_bytes": 43,
+      "json_response_bytes": 77,
+      "grpc_request_bytes": 12,
+      "grpc_response_bytes": 24,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 68.83116883116884
+    },
+    {
+      "region": "New Mexico",
+      "json_request_bytes": 43,
+      "json_response_bytes": 77,
+      "grpc_request_bytes": 12,
+      "grpc_response_bytes": 24,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 68.83116883116884
+    },
+    {
+      "region": "New York",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "North Carolina",
+      "json_request_bytes": 47,
+      "json_response_bytes": 81,
+      "grpc_request_bytes": 16,
+      "grpc_response_bytes": 28,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 65.4320987654321
+    },
+    {
+      "region": "North Dakota",
+      "json_request_bytes": 45,
+      "json_response_bytes": 79,
+      "grpc_request_bytes": 14,
+      "grpc_response_bytes": 26,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 67.08860759493672
+    },
+    {
+      "region": "Ohio",
+      "json_request_bytes": 37,
+      "json_response_bytes": 71,
+      "grpc_request_bytes": 6,
+      "grpc_response_bytes": 18,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 74.64788732394366
+    },
+    {
+      "region": "Oklahoma",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Oregon",
+      "json_request_bytes": 39,
+      "json_response_bytes": 73,
+      "grpc_request_bytes": 8,
+      "grpc_response_bytes": 20,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 72.6027397260274
+    },
+    {
+      "region": "Pennsylvania",
+      "json_request_bytes": 45,
+      "json_response_bytes": 79,
+      "grpc_request_bytes": 14,
+      "grpc_response_bytes": 26,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 67.08860759493672
+    },
+    {
+      "region": "Rhode Island",
+      "json_request_bytes": 45,
+      "json_response_bytes": 79,
+      "grpc_request_bytes": 14,
+      "grpc_response_bytes": 26,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 67.08860759493672
+    },
+    {
+      "region": "South Carolina",
+      "json_request_bytes": 47,
+      "json_response_bytes": 81,
+      "grpc_request_bytes": 16,
+      "grpc_response_bytes": 28,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 65.4320987654321
+    },
+    {
+      "region": "South Dakota",
+      "json_request_bytes": 45,
+      "json_response_bytes": 79,
+      "grpc_request_bytes": 14,
+      "grpc_response_bytes": 26,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 67.08860759493672
+    },
+    {
+      "region": "Tennessee",
+      "json_request_bytes": 42,
+      "json_response_bytes": 76,
+      "grpc_request_bytes": 11,
+      "grpc_response_bytes": 23,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 69.73684210526316
+    },
+    {
+      "region": "Texas",
+      "json_request_bytes": 38,
+      "json_response_bytes": 71,
+      "grpc_request_bytes": 7,
+      "grpc_response_bytes": 19,
+      "response_bytes_saved": 52,
+      "response_reduction_percent": 73.23943661971832
+    },
+    {
+      "region": "Utah",
+      "json_request_bytes": 37,
+      "json_response_bytes": 71,
+      "grpc_request_bytes": 6,
+      "grpc_response_bytes": 18,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 74.64788732394366
+    },
+    {
+      "region": "Vermont",
+      "json_request_bytes": 40,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 9,
+      "grpc_response_bytes": 21,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 71.62162162162163
+    },
+    {
+      "region": "Virginia",
+      "json_request_bytes": 41,
+      "json_response_bytes": 75,
+      "grpc_request_bytes": 10,
+      "grpc_response_bytes": 22,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 70.66666666666667
+    },
+    {
+      "region": "Washington",
+      "json_request_bytes": 43,
+      "json_response_bytes": 77,
+      "grpc_request_bytes": 12,
+      "grpc_response_bytes": 24,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 68.83116883116884
+    },
+    {
+      "region": "West Virginia",
+      "json_request_bytes": 46,
+      "json_response_bytes": 80,
+      "grpc_request_bytes": 15,
+      "grpc_response_bytes": 27,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 66.25
+    },
+    {
+      "region": "Wisconsin",
+      "json_request_bytes": 42,
+      "json_response_bytes": 76,
+      "grpc_request_bytes": 11,
+      "grpc_response_bytes": 23,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 69.73684210526316
+    },
+    {
+      "region": "Wyoming",
+      "json_request_bytes": 40,
+      "json_response_bytes": 74,
+      "grpc_request_bytes": 9,
+      "grpc_response_bytes": 21,
+      "response_bytes_saved": 53,
+      "response_reduction_percent": 71.62162162162163
+    }
+  ]
+}
